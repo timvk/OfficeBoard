@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeBoard.Data", "OfficeBoard.Data\OfficeBoard.Data.csproj", "{D5BD2F16-EA0B-4859-8F33-87D419658E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeBoard.Web", "OfficeBoard.Web\OfficeBoard.Web.csproj", "{0CD49587-EA38-4654-B2E1-4B72F78C2F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeBoard.Services", "OfficeBoard.Services\OfficeBoard.Services.csproj", "{3B6FC96B-D1DC-4CA4-8773-C30BADCBF9A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5BD2F16-EA0B-4859-8F33-87D419658E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BD2F16-EA0B-4859-8F33-87D419658E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BD2F16-EA0B-4859-8F33-87D419658E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BD2F16-EA0B-4859-8F33-87D419658E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD49587-EA38-4654-B2E1-4B72F78C2F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD49587-EA38-4654-B2E1-4B72F78C2F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD49587-EA38-4654-B2E1-4B72F78C2F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD49587-EA38-4654-B2E1-4B72F78C2F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6FC96B-D1DC-4CA4-8773-C30BADCBF9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6FC96B-D1DC-4CA4-8773-C30BADCBF9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6FC96B-D1DC-4CA4-8773-C30BADCBF9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6FC96B-D1DC-4CA4-8773-C30BADCBF9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

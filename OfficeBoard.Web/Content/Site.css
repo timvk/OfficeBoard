@@ -1,0 +1,232 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 70px;
+    font-size: 1.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+body {
+    background-image: url("../Files/img_sm.jpg");
+}
+
+#mainBoard {
+    background: url("../Files/corkboard-smll.jpg");
+    background-size: contain;
+    width: 75%;
+    height: 640px;
+    background-repeat:no-repeat;
+    float: right;
+    margin-right: 20px;
+    padding: 35px;
+}
+
+.mainCont {
+    padding: 25px;
+}
+
+/*.mainbrd {
+    display: flex;
+    flex-direction: column;
+}*/
+
+#side-nav {
+    background: url("../Files/note_side.gif") no-repeat;
+    background-size: contain;
+    width: 305px;
+    height: 313px;
+    float: left;
+    padding-top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+ 
+.nav-li {
+    margin: 15px 0;  
+    display: flex;
+    flex-direction: row;
+}
+
+.line-separator{
+    height:1px;
+    background:#717171;
+    border-bottom:1px solid #313030;
+    margin: 10px 30px;
+}
+
+.regLogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.listItems, .item{
+    list-style: none;
+    padding: 0 0;
+}
+
+.listItems{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+}
+.listItems .item{
+    margin:1em;
+    float:left;    
+}
+
+.listItems .item a{
+    text-decoration:none;
+    color:#000;
+    display:block;
+    height:14em;
+    width:14em;
+    padding:1.4em;
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+    /*-o-transform:rotate(-1deg);
+    -webkit-transform:rotate(-1deg);
+    -moz-transform:rotate(-1deg);*/
+}
+
+.listItems .item:nth-child(odd) a{
+    background: url("../Files/unnamed.png");
+    background-size: contain;
+    position:relative;
+    top:5px;
+}
+
+.listItems .item:nth-child(odd) a div{
+    -o-transform:rotate(-2deg);
+    -webkit-transform:rotate(-2deg);
+    -moz-transform:rotate(-2deg);
+}
+
+.listItems .item:nth-child(even) a{   
+    background: url("../Files/post-it-pink.png");
+    background-size: contain;
+    padding: 2em;
+    position:relative;
+    top:-5px;
+}
+
+.listItems .item:nth-child(even) a div{
+    -o-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+}
+
+.listItems .item a:hover, .listItems .item a:focus{
+    -webkit-transform: scale(1.75);
+    -moz-transform: scale(1.75);
+    -o-transform: scale(1.75);
+    position:relative;
+    z-index:5;
+}
+
+.loginRegister {
+    background: url(../Files/loginRegister.png), no-repeat;
+    background-size: cover;
+    width: 480px;
+    height: 325px;
+    margin: 10px auto;
+    padding: 35px 30px;
+    vertical-align: middle;
+}
+
+.centered {   
+    text-align: center;
+    padding-top: 100px;
+}
+
+.note {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+
+    display: block;
+    justify-content: space-between;
+}
+
+.note p {
+    font-size: 12px;
+}
+
+.noteFooter {
+    display: flex;
+    flex-direction: row;
+}
+
+.pin-img {
+    background: url("../Files/yellow-pin.png") no-repeat;
+    width: 26px;
+    height: 26px;
+}
+
+.side-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.side-btns button {
+    width: 120px;
+}
+
+.some-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#edit-btn, #delete-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+#edit-btn {
+    background: url('../Files/Edit.png') no-repeat;   
+    background-size: contain;
+}
+
+#delete-btn {
+    background: url('../Files/Delete.png') no-repeat;   
+    background-size: contain;
+}
